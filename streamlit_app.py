@@ -17,7 +17,6 @@ with st.expander('Data visualuzation'):
 
 with st.sidebar:
   st.header("Input features")
-  st.header('Input features')
   island = st.selectbox('Island', ('Biscoe', 'Dream', 'Torgersen'))
   bill_length_mm = st.slider('Bill length (mm)', 32.1, 59.6, 43.9)
   bill_depth_mm = st.slider('Bill depth (mm)', 13.1, 21.5, 17.2)
